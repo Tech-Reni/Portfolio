@@ -72,3 +72,24 @@ const initAccordion = function(currentAccordion) {
 }
 
 for (let i = 0, len = accordions.length; i < len; i++) { initAccordion(accordions[i]); }
+
+
+
+// const typed = new Typed('.multi-text', {
+//     strings: ['Frontend Developer', 'Programming', 'Youtuber'],
+//     typeSpeed: 100,
+//     backSpeed: 100,
+//     backDelay: 1000,
+//     loop: true
+// })
+
+
+
+ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 300
+});
+
+ScrollReveal().reveal('.profile', { origin: 'bottom' });
