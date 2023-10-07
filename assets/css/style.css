@@ -132,6 +132,10 @@ body.nav-active {
     overflow: hidden;
 }
 
+section {
+    margin-bottom: 25px;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -174,7 +178,6 @@ body.nav-active {
 
 .section {
     padding-block: var(--section-padding);
-    margin-bottom: 50px;
 }
 
 .has-bg-image {
@@ -514,6 +517,54 @@ body.nav-active {
 
 .service-card .btn-text:is(:hover, :focus-visible) {
     opacity: 0.9;
+}
+
+
+/*-----------------------------------*\
+  #PROFILE 
+\*-----------------------------------*/
+
+.profile {
+    width: 80%;
+    height: 500px;
+    text-align: center;
+    margin-left: calc(50% - 40%);
+    border-radius: 20px 20px 20px 20px;
+    background: rgb(245, 245, 245);
+}
+
+.profile::before {
+    -webkit-content: linear-gradient(120deg, #e0c3fc 15%, #8ec5fc 100%);
+    content: linear-gradient(120deg, #e0c3fc 15%, #8ec5fc 100%);
+    display: block;
+    height: 20%;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(230, 230, 230);
+    border-radius: 20px 20px 0 0;
+}
+
+.profile .img-container {
+    height: 140px;
+    width: 140px;
+    margin-left: calc(50% - 70px);
+    margin-top: -80px;
+    box-shadow: 0px 4px 4px 1px #b1b1b1;
+    border-radius: 50px;
+}
+
+.profile .img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.profile .profile-writeup {
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
 }
 
 
