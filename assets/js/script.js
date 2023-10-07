@@ -87,8 +87,8 @@ for (let i = 0, len = accordions.length; i < len; i++) { initAccordion(accordion
 
 ScrollReveal({
     reset: true,
-    distance: '80px',
-    duration: 2000,
+    distance: '100px',
+    duration: 2200,
     delay: 300
 });
 
