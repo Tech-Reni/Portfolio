@@ -525,10 +525,10 @@ section {
 \*-----------------------------------*/
 
 .profile {
-    width: 80%;
+    width: 90%;
     height: 500px;
     text-align: center;
-    margin-left: calc(50% - 40%);
+    margin-left: calc(50% - 45%);
     border-radius: 20px 20px 20px 20px;
     background: rgb(245, 245, 245);
 }
@@ -565,6 +565,16 @@ section {
     line-height: 25px;
     letter-spacing: 0.5px;
     word-spacing: 1px;
+    padding: 10px;
+}
+
+.profile button {
+    margin-left: calc(50% - 80px);
+    background: linear-gradient(120deg, #d19fff 15%, #79bcff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    border: 1px solid #d19fff;
 }
 
 
