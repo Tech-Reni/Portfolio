@@ -89,7 +89,7 @@ ScrollReveal({
     reset: true,
     distance: '100px',
     duration: 2200,
-    delay: 300
+    delay: 100
 });
 
-ScrollReveal().reveal('.profile', { origin: 'bottom' });
+ScrollReveal().reveal('.profile', { origin: 'left' });
