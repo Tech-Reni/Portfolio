@@ -87,9 +87,9 @@ for (let i = 0, len = accordions.length; i < len; i++) { initAccordion(accordion
 
 ScrollReveal({
     reset: true,
-    distance: '100px',
-    duration: 2200,
-    delay: 100
+    distance: '300px',
+    duration: 1700,
+    delay: 10
 });
 
 ScrollReveal().reveal('.profile', { origin: 'left' });
